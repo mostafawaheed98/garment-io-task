@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+To run project: 
+1. In a terminal, run npm install.
+2. After installation completes, run npm start.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Task description:
 
-## Available Scripts
+Given a list of sizes and colors, we need to create a table or a grid that allows the user to select size / color combinations and define quantities for each combination. The table should initially consist of the plus buttons in the top right corner, one column with the sizes list for the user to choose a size from and one row with the colors list along with the quantity input.
 
-In the project directory, you can run:
+Pressing the plus button close to the sizes list, should create a new column with a sizes dropdown. Consequently, quantity inputs are added for this newly created column. Same goes, if you press the plus button close to the colors list, where a new row is added with the colors dropdown and respective quantities. Please note that each size or color can be selected only once in the table.
 
-### `npm start`
+Please follow the below steps to achieve the required result:
+1.  Create the table’s UI and any react components required including the sizes and colors lists.
+2.  Add the functionality to allow the user to add more sizes by clicking the plus button next to the sizes dropdown menu.
+3.  Add the functionality to allow the user to add more colors by clicking the plus button above the colors dropdown menu.
+4.  Add a submit button below the table that when clicked, would output all the table values as follows to the console:
+[{color: “red”, size: 5, quantity: 10}]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bonus 1: Show the totals of the quantities inserted by the user for each column / row. 
+Bonus 2: Add cross icon next to each created size so that it can be deleted from the table.
