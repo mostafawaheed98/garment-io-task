@@ -17,3 +17,14 @@ Please follow the below steps to achieve the required result:
 
 Bonus 1: Show the totals of the quantities inserted by the user for each column / row. 
 Bonus 2: Add cross icon next to each created size so that it can be deleted from the table.
+
+
+Important notes:
+1. Please use React hooks.
+2. Feel free to use libraries such as Material UI or Ant design.
+3. The UI in the image is in RTL but this is only for clarification purposes but it can be
+implemented in LTR.
+4. Page should be optimized such that no unnecessary renders are made and only the
+relevant components are updated.
+5. We are looking for clear, readable code that is well structured.
+6. Please make sure that the code is functional and bugs free.
